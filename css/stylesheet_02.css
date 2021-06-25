@@ -1,0 +1,141 @@
+@font-face{
+	font-family: shareTechMono;
+	src: url(fonts/ShareTechMono-Regular.ttf);
+}
+
+@font-face{
+	font-family: russo;
+	src: url(fonts/RussoOne-Regular.ttf);
+}
+
+@font-face{
+	font-family: lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+
+/*body{
+	background-color: grey;
+}*/
+
+#heading{
+	text-align: left;
+	color: blue;
+	background-color: lightpink;
+	font-size: 350%;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -8px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: russo;
+	/*margin-bottom: 20px;*/
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+}
+
+p.para{
+	font-size: 133%;
+	/*border-top: solid 12px orange;*/
+	border-top: solid 5px lightblue;
+	/*border-bottom: solid 5px orange;*/
+	/*background-color: crimson;*/
+	margin-left: 8%;
+	margin-right: 8%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 6px;
+	font-family: shareTechMono;
+	/*padding-bottom: 6px;*/
+}
+
+#profile{
+	display: block;
+	max-width: 225px;
+	border: double 7px blue;
+	border-radius: 50px;
+	margin-left: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+p.name{
+	text-align: center;
+	border-left: solid 5px blue;
+	border-right: solid 5px blue;
+	margin-left: 31%;
+	margin-right: 31%;
+	font-size: 26px;
+	background-color: lightgrey;
+	font-family: lobster;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px blue;
+}
+
+a.mail_link{
+	text-decoration: none;
+}
+
+#sticky{
+	border: 0px solid grey;
+	background-color: black /*grey*/;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: -38px;
+	margin-left: -8px;
+	margin-right: -8px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+#ver_nav{
+	background-color: #696969;
+	position: absolute;
+	left: 0;
+	width: auto;
+	margin-top: -16px;
+	z-index: 1;
+	height: auto;
+	display: none;
+	color: white;
+	overflow: auto;
+}
+
+ul.nav_values{
+	margin-bottom: 0px;
+}
+
+li.style_nav{
+	padding-bottom: 15px;
+	padding-left: 8px;
+	padding-right: 5px;
+	border-bottom: solid 2px black;
+	margin-left: -40px;
+	padding-top: 8px;
+	letter-spacing: 4px;
+	word-spacing: 0px;
+	color: black;
+	text-align: center;
+	list-style-type: none;
+	font-size: 21px;
+	font-family: lobster;
+}
+
+li.style_nav:hover{
+	background-color: white;
+}
+
+a.nav_link{
+	text-decoration: none;
+	color: black;
+}
+

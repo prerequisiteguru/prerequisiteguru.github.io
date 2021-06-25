@@ -1,0 +1,183 @@
+@font-face {
+	font-family: shareTechMono;
+	src: url(fonts/ShareTechMono-Regular.ttf);
+}
+
+@font-face {
+	font-family: russo;
+	src: url(fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+
+body{
+	background-color: #FFFFFF;
+}
+
+#con-head1{
+	background-color: #696969;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+#con-head2{
+	background-color: #CD5C5C;
+	margin-top: -48px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+#logo_img{
+	width: 260px;
+	height: 320px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+
+h1.logo{
+	margin-top: -16px;
+	text-align: center;
+	font-family: lobster;
+	font-size: 500%;
+	color: #F08080;
+	padding-bottom: 26px;
+	margin-bottom: 0px;
+}
+
+h2.heading{
+	font-size: /*696%,110px*/57px;
+	color: #696969;
+	font-family: russo;
+	padding-left: 17px;
+	word-wrap: break-word;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	line-height: 1.5;
+}
+
+div.game-link-container{
+	border-radius: 13px;
+	background-color: #F08080;
+}
+
+div.game-link-container:hover{
+	background-color: darkgrey;
+	color: #FFFFFF;
+	box-shadow: 0 2px 8px 0 grey, 0 2px 12px 0 grey;
+}
+
+div.game-image-link img{
+	width: 100%;
+	height: auto;
+}
+
+div.name-of-game{
+	padding-top: 15px;
+	padding-bottom: 11px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	font-size: 13px;
+	font-family: shareTechMono;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	padding: 0 6px;
+	float: left;
+	width: 23.7%/*24.99999%*/;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+@media only screen and (max-width: 700px){
+	.container{
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.container{
+		width: 45%;
+		margin-left: 8px;
+	}
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a.game_link{
+	text-decoration: none;
+	color: black;
+}
+
+#sticky{
+	background-color: black;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: -27px;
+	margin-left: -8px;
+	margin-right: -8px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+#ver_nav{
+	background-color: #696969;
+	position: absolute;
+	left: 0;
+	width: auto;
+	margin-top: -16px;
+	z-index: 1;
+	height: auto;
+	display: none;
+	color: white;
+	overflow: auto;
+}
+
+ul.nav_values{
+	margin-bottom: 0px;
+}
+
+li.style_nav{
+	padding-bottom: 15px;
+	padding-left: 8px;
+	padding-right: 5px;
+	border-bottom: solid 2px black;
+	margin-left: -40px;
+	padding-top: 8px;
+	letter-spacing: 4px;
+	word-spacing: 0px;
+	color: black;
+	text-align: center;
+	list-style-type: none;
+	font-size: 21px;
+	font-family: lobster;
+}
+
+li.style_nav:hover{
+	background-color: white;
+}
+
+a.nav_link{
+	text-decoration: none;
+	color: black;
+}

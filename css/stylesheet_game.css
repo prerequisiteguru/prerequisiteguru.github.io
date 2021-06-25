@@ -1,0 +1,259 @@
+@font-face {
+	font-family: shareTechMono;
+	src: url(fonts/ShareTechMono-Regular.ttf);
+}
+
+@font-face {
+	font-family: russo;
+	src: url(fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+
+#heading-all{
+	background-color: #778899;
+	margin-top: -29px;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding-bottom: 18px;
+}
+
+#logo-image{
+	padding-top: 12px;
+	position: absolute;
+	left: 0;
+	width: 46px;
+	height: 47px;
+	padding-left: 6px;
+}
+
+#logo-text{
+	color: #FFFFFF;
+	font-family: "russo";
+	font-size: 35px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-left: 40px;
+	padding-top: 12px;
+}
+
+#logo-text:hover{
+	text-shadow: 4px 4px 5px black;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+}
+
+#logo_link:link,#logo_link:hover,#logo_link:visited,#logo_link:active{
+	text-decoration: none;
+	color: white;
+}
+
+img.game {
+  	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+	width: 70%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover.game{
+	box-shadow: 0 0 2px 0 red, 0 2px 17px 0 red;
+}
+
+p.min_max {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	max-width: 360px;
+	text-align: left;
+	font-family: "lobster";
+	font-size: 22px;
+	border-left: 8px solid #4196E1;
+	background-color: #AFEEEE;
+}
+
+div.value_min_max{
+	text-align: left;
+	border-left: 8px solid #DB7093;
+	background-color: #FFE4E1;
+}
+
+span.under_list_values{
+	padding-top: 3px;
+	font-family: "shareTechMono";
+	font-size: 17px;
+}
+
+ul.list_values{
+	padding-left: 27px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+p.about{
+	text-align: left;
+	background-color: #DFDFDF;
+	border: 0px solid #808080;
+	font-family: "shareTechMono";
+	font-size: 20px;
+	color: black;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#sticky{
+	background-color: black;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: -27px;
+	margin-left: -8px;
+	margin-right: -8px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+#ver_nav{
+	background-color: #696969;
+	position: absolute;
+	left: 0;
+	width: auto;
+	margin-top: -16px;
+	z-index: 1;
+	height: auto;
+	display: none;
+	color: white;
+	overflow: auto;
+}
+
+ul.nav_values{
+	margin-bottom: 0px;
+}
+
+li.style_nav{
+	padding-bottom: 15px;
+	padding-left: 8px;
+	padding-right: 5px;
+	border-bottom: solid 2px black;
+	margin-left: -40px;
+	padding-top: 8px;
+	letter-spacing: 4px;
+	word-spacing: 0px;
+	color: black;
+	text-align: center;
+	list-style-type: none;
+	font-size: 21px;
+	font-family: lobster;
+}
+
+li.style_nav:hover{
+	background-color: white;
+}
+
+a.nav_link{
+	text-decoration: none;
+	color: black;
+}
+
+#game_name{
+	text-align: center;
+	border-left: 6px solid black;
+	border-right: 6px solid black;
+	background-color: grey;
+	margin-top: 20px;
+	margin-left: 9%;
+	margin-right: 9%;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-family: shareTechMono;
+}
+
+#title_of_systemrequirement{
+	text-align: center;
+	border-left: 6px solid black;
+	border-right: 6px solid black;
+	background-color: grey;
+	font-family: shareTechMono;
+	font-size: 19px;
+	margin-top: -12px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+li.line_height{
+	line-height: 1.7;
+}
+
+div.game-link-container{
+	border-radius: 14px;
+	background-color: pink;
+}
+
+div.game-link-container:hover{
+	background-color: darkgrey;
+	color: #FFFFFF;
+	box-shadow: 0 2px 8px 0 black, 0 2px 12px 0 grey;
+}
+
+div.game-image-link img{
+	width: 100%;
+	height: auto;
+}
+
+div.name-of-game{
+	padding-top: 15px;
+	padding-bottom: 11px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	font-size: 13px;
+	font-family: shareTechMono;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	padding: 0 6px;
+	float: left;
+	width: 23.7%/*24.99999%*/;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+@media only screen and (max-width: 700px){
+	.container{
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.container{
+		width: 45%;
+		margin-left: 10px;
+	}
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a.game_link{
+	text-decoration: none;
+	color: black;
+}
+
+
