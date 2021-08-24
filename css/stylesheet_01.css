@@ -67,6 +67,12 @@ h2.heading{
 	line-height: 1.5;
 }
 
+@media only screen and (max-width: 700px){
+	h2.heading{
+		font-size: 44px;
+	}
+}
+
 div.game-link-container{
 	border-radius: 14px;
 	background-color: #F08080;
@@ -145,6 +151,8 @@ a.game_link{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
+
+
 
 #ver_nav{
 	background-color: #696969;
