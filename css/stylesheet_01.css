@@ -44,10 +44,16 @@ h1.logo{
 	margin-top: -16px;
 	text-align: center;
 	font-family: lobster;
-	font-size: 500%;
+	font-size: 750%/*500%*/;
 	color: #F08080;
 	padding-bottom: 26px;
 	margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 700px){
+	h1.logo{
+		font-size: 460%;
+	}
 }
 
 h2.heading{
